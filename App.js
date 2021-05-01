@@ -24,10 +24,10 @@ import AddTodo from './components/AddTodo';
 
 function App(props) {
   const [todo, setTodo] = useState([
-    {text: 'watch porn', key: '1'},
-    {text: 'masterbate', key: '2'},
-    {text: 'eat', key: '3'},
-    {text: 'sleep', key: '4'},
+    {text: 'Wake Up', key: '1'},
+    {text: 'Exercise', key: '2'},
+    {text: 'Eat', key: '3'},
+    {text: 'Sleep', key: '4'},
   ]);
 
   const handlePress = key => {
